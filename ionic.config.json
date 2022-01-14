@@ -1,0 +1,7 @@
+{
+  "name": "unalmeet-movil",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
