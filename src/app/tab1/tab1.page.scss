@@ -1,0 +1,17 @@
+ion-grid{
+    height: 100%;
+}
+ion-row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.logo {
+    ion-content img {
+    height: 70vh !important;
+    width: auto !important;
+    align-items: center;
+    }
+    }
