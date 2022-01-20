@@ -21,7 +21,12 @@ const routes: Routes = [
   {
     path: 'newmeeting',
     loadChildren: () => import('./newmeeting/newmeeting.module').then( m => m.NewmeetingPageModule)
+  },
+  {
+    path: 'calendar',
+    loadChildren: () => import('./calendar/calendar.module').then( m => m.CalendarPageModule)
   }
+
 ];
 @NgModule({
   imports: [
